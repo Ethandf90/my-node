@@ -1,13 +1,17 @@
 {
-    "test": {
-      "PORT": 3000,
-      "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
-      "JWT_SECRET": "poijasdf98435jpgfdpoij3"
-    },
-    "development": {
-      "PORT": 3000,
-      "MONGODB_URI": "mongodb://localhost:27017/TodoApp",
-      "JWT_SECRET": "pojiaj234oi234oij234oij4"
-    }
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
+    "JWT_SECRET": ""
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoApp",
+    "JWT_SECRET": "",
+    "PGDATABASE": "nodetest",
+    "PGHOST": "localhost",
+    "PGPASSWORD": "5555",
+    "PGPORT": "5432",
+    "PGUSER": "feidong"
   }
-  
+}

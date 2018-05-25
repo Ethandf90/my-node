@@ -1,7 +1,7 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
-  "plugins": ["react", "jsx-a11y", "import"],
+  "extends": ["airbnb", "plugin:flowtype/recommended"],
+  "plugins": ["react", "jsx-a11y", "import", "flowtype"],
   "env": {
     "browser": true,
     "es6": true

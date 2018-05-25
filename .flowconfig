@@ -1,8 +1,15 @@
 [ignore]
+.*/local_modules/.*
+lib/.*
+.*/build_production/.*
+.*/build_development/.*
+.*/build/.*
 
 [include]
 
 [libs]
+flow-type/
+flow/
 
 [lints]
 
