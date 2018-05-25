@@ -8,6 +8,13 @@ Editor - VS Code (extension: ESLint, Flow Support, Prettier)
 
 npm, nodemon, mocha, react-native-cli
 
+# structure
+
+./client/ for front end
+./server/ for server
+./package.json for project-scope lib
+./flow/ for types defining
+
 # run
 
 npm install
